@@ -1,0 +1,409 @@
+.carousel {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+
+
+.row{
+  width: 100%;
+}
+
+@media (max-width:1240px){
+  #carouselExampleInterval{
+    height: 100% !important;
+  }
+
+  .carousel-control-prev{
+    height: 100%;
+  }
+
+  .firstContainer{
+    height: 100% !important;
+    max-height: 100% !important;
+  }
+
+  #scanlines{
+ 
+    height: 100%;
+    z-index: 100;
+}
+}
+
+
+@media (max-width:991px){
+
+  .welcome_docmed_area .welcome_thumb .thumb_1 img{
+    width: 30% !important;
+  }
+
+  .welcome_docmed_area .welcome_thumb .thumb_2 {
+    position: absolute;
+    bottom: -94px;
+    right: -37px;
+}
+  .welcome_docmed_area .welcome_thumb .thumb_2 img{
+    width: 70% !important;
+  }
+
+}
+@media (max-width:990px){
+  .logo22{
+    height: 50%;
+  }
+
+  .sliderContent{
+    height: 100% !important;
+  }
+
+  .sliderText{
+    background-color: lawngreen;
+    width: 40%;
+  }
+  
+  .sliderText h1{
+    text-align: start;
+    font-size: 25px !important;
+    font-weight: 650 !important;
+  }
+  .sliderText2{
+    font-size: 75%;
+  }
+
+  #buttonSlider{
+    font-size: 80% !important;
+  }
+
+
+  @media (max-width: 670px){
+
+    .sliderText{
+      width: 70% !important;
+    }
+    #buttonSlider{
+      font-size: 80% !important;
+    }
+    .sliderContent{
+      top: 15% !important;
+    }
+  }
+}
+
+
+
+
+
+#carouselExampleInterval{
+  height: 610px;
+  background: linear-gradient(90deg, rgba(0,212,255,0.50) 5%, rgba(255,255,255,0) 45%);
+  z-index:1 ;
+}
+  
+  .carousel-holder {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-inner .carousel-item {
+    width: 100%;
+    height: 100%;
+    transition: initial 4s ease-in-out 10s;
+    
+  }
+
+
+  .carousel-inner .carousel-item .imgClass {
+    left: 0px;
+    background-position: center;
+    transition: ease 1.5s;
+   
+  }
+  .carousel-inner .carousel-item .imgClass img{
+   width: 90%;
+   
+  }
+
+
+  .carousel-inner .carousel-item.active .imgClass {
+    transform: scale(2);
+    transition-duration: 70s;
+  }
+
+
+
+  .carouselItem{
+    background-color: lawngreen;
+  
+  }
+
+
+
+
+
+  .firstContainer{
+    z-index: 1;
+    height: 100%;
+    max-height: 630px !important;
+    min-height:100% ;
+  }
+
+
+
+  .flags{
+    width: 25px;
+    height: 15px;
+  }
+
+
+  .containerHeader{
+    padding-left: 5%;
+    padding-right: 2%;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+.sliderContent{
+  display: block;
+  position: absolute;
+  width: 70%;
+  top:40%;
+  left: 4%;
+}
+
+
+
+.sliderBG2{
+  background-image: url(/img/slider2/tractomula2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  left: 0px;
+  background-position: center;
+  transition: ease 1.5s;
+}
+
+.sliderPadding{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.sliderPadding1{
+  padding-top: 0%;
+  padding-bottom: 1%;
+}
+
+.sliderText{
+  background-color: lawngreen;
+  width: 40%;
+}
+
+.sliderText h1{
+  text-align: start;
+  font-size: 35px;
+  font-weight: 700;
+}
+.sliderText2{
+  background-color: lawngreen;
+  width: 100%;
+}
+
+
+#buttonSlider {
+  opacity: 1;
+  z-index: 1000;
+  
+  background: rgb(41,132,255);
+  background: linear-gradient(90deg, rgba(41,132,255,1) 0%, rgba(55,176,255,1) 48%, rgba(174,234,254,1) 100%);
+
+  border-style: none;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+  text-decoration:none;
+  border-radius: 4px;
+
+}
+#buttonSlider:hover {
+  transition: all 2s;
+	background-color:#4dc6eb;
+}
+#buttonSlider:active {
+  color: black;
+  transition: ease-in 1s ease-out 1s;
+	position:relative;
+  top:1px;
+  background-color: rgb(18, 32, 95);
+}
+
+
+.carousel-control-prev{
+  top: 25% !important;
+  width: 10% !important;
+  height: 50%;
+}
+
+
+
+
+
+
+.owlContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding-left: 8%;
+  margin-bottom: 5%;
+}
+.owlContainerTop{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.owlTitle{
+  padding-left: 0;
+}
+
+
+
+
+/*slider items clientes*/
+
+.item{
+  background-color: black;
+  width: 100%;
+  height: 120px;
+  margin: 0px;
+}
+
+.item1{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/algarra.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+}
+
+.item2{
+  margin-right: 5%;
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/agua.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+}
+
+.item3{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/ardillantas.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+
+
+.item4{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/dersa.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 72%;
+  background-position: center;
+}
+
+
+.item5{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/endara.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+}
+
+.item6{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/fd.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+}
+
+.item7{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/fuller.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 105%;
+  background-position: center;
+}
+
+.item8{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/grasco.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.item9{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/icollantas.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.item9{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/raza.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center;
+}
+
+.item10{
+  top: 0px;
+  height: 120px;
+  width: 100%;
+  background-image: url(img/logo2/vinisol.png);
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+/*   */
